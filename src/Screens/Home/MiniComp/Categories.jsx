@@ -34,9 +34,10 @@ function Categories({ props }) {
                     key={index} className="cat clickP">
                     <img
                         className='cate'
-                        src='https://www.block-machine.net/wp-content/uploads/2019/05/3-QT4-25C-Automatic-Brick-Making-Machine.jpg' alt="categories" />
+                        src={category?.image?.url} alt="categories" />
 
-                    <text style={{ fontSize: '12px', textAlign: 'center', fontWeight: 'bold' }}>
+                    <text className='categoryName' 
+                     style={{ fontSize: '12px', textAlign: 'center', fontWeight: 'bold', }}>
 
                         {category.name}
 
