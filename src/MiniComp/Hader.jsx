@@ -23,7 +23,7 @@ function Hader() {
                 </div>
                 <div className='click'>
                     {/* onclick  goto login page*/}
-                    <p style={{fontWeight:'400',marginRight:"10px"}}>   about us    </p>                </div>
+                    <p style={{fontWeight:'400',marginRight:"10px"}}>   about us   new </p>                </div>
             </div>
         </>
     )
