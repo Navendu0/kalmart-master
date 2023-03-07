@@ -140,7 +140,7 @@ function ProductDetails() {
 
           <button
 //this is the wwhatsapps number
-          onClick={()=>window.open('https://wa.me/919564144396/?text=Hi thare whatsapps')}
+          onClick={()=>window.open('https://wa.me/919564144396/?text=Hi thare ')}
             style={{
               backgroundColor: "#44eb61",
               width: "100%",
