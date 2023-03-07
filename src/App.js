@@ -5,6 +5,7 @@ import ProductDetails from './Screens/ProductDetails/ProductDetails'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AllProduct from './Screens/AllProduct/AllProduct';
 import Footer from './MiniComp/Footer/Footer';
+import About from './MiniComp/About/About';
 
 
 
@@ -21,6 +22,7 @@ function App () {
           <Route path='/productDetails/:id' element={<ProductDetails/>} />
           
           <Route path='/allProduct' element={<AllProduct/>} />
+          <Route exact path="/About" element={<About />} />
         </Routes>
        
        <Footer/>
