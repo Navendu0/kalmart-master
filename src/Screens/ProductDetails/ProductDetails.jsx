@@ -12,6 +12,7 @@ import Youtube from "./Youtube";
 import { useLocation, useNavigate,  } from "react-router-dom";
 import { url } from "../../Address";
 import axios from "axios";
+import AllProduct from '../AllProduct/AllProduct';
 
 
 
@@ -179,8 +180,10 @@ function ProductDetails() {
       <div>
         <div>
           <h4>simmiler products</h4>
+          
 
           <div className="product-card-container">
+          <AllProduct/>
 
             {/* akhane pore similar product dekhano hobe */}
 
