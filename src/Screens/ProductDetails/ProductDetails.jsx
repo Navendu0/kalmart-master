@@ -13,6 +13,7 @@ import { useLocation, useNavigate,  } from "react-router-dom";
 import { url } from "../../Address";
 import axios from "axios";
 import AllProduct from '../AllProduct/AllProduct';
+import SimmilarProduct from "../../MiniComp/SimmilarProduct";
 
 
 
@@ -183,10 +184,8 @@ function ProductDetails() {
           
 
           <div className="product-card-container">
-          <AllProduct/>
-
             {/* akhane pore similar product dekhano hobe */}
-
+     <SimmilarProduct/>
           </div>
         </div>
 
