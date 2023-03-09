@@ -26,11 +26,11 @@ function Footer() {
 
           
 
-          <a href="#">About</a>
+          <a href="/About">About</a>
 
           
 
-          <a href="#">Contact</a>
+          <a href="/About">Contact</a>
         </p>
 
         <p>M/s Maiti Mercantile &copy; 2023</p>

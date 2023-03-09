@@ -37,7 +37,7 @@ function About() {
       </p>
 
       <div>
-        <h1 >Content as </h1>
+        <h1 className="Contactas ">Contact as </h1>
         <iframe
           title="This is a unique title"
           src="https://docs.google.com/forms/d/e/1FAIpQLSeEkIWyed5RedYU6NcKMlrDAOcE6Qe7PG8O_aDBDArlUCDCLA/viewform?embedded=true"
